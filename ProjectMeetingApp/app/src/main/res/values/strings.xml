@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project Meeting App</string>
+    <string name="email_hint">Email</string>
+    <string name="getStarted_button">Get Started</string>
+    <string name="new_meeting">Create New Meeting</string>
+    <string name="meeting_title_hint">Meeting Title</string>
+    <string name="enter_date_field">SET DATE</string>
+    <string name="enter_time_field">SET TIME</string>
+    <string name="enter_notes_field">Notes...</string>
+    <string name="set_location_button">SET LOCATION</string>
+    <string name="add_attendees_button">ADD ATTENDEES</string>
+    <string name="create_meeting_button">CREATE MEETING</string>
+    <string name="add_attendee_text">ADD NEW ATTENDEE</string>
+    <string name="new_attendee_name">Enter Name</string>
+    <string name="new_attendee_email">Enter Email</string>
+    <string name="add_new_attendee_button">ADD ATTENDEE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="your_meetings">Your Meetings</string>
+    <string name="create_new_meeting_app_bar">Create new meeting</string>
+    <string name="add_new_attendees_app_bar">Add new attendees</string>
+    <string name="get_started">GET STARTED</string>
+
+
+
+</resources>

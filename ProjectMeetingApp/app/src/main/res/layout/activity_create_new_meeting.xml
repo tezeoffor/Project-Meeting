@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_meeting_bg"
+    tools:context=".CreateNewMeetingActivity">
+
+    <include
+        layout="@layout/create_meeting_app_bar"
+        android:id="@+id/create_app_bar_id">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="96dp">
+
+
+        <EditText
+            android:id="@+id/meeting_title"
+            android:background="@drawable/surface_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:hint="@string/meeting_title_hint"
+            android:textColorHint="@color/purple_hint"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="164dp">
+
+
+        <TextView
+            android:id="@+id/date_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="55dp"
+            android:text="@string/enter_date_field"
+            android:textColor="@color/light_purple"/>
+
+        <TextView
+            android:id="@+id/time_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="@string/enter_time_field"
+            android:textColor="@color/light_purple" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="235dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/notes_field"
+            android:background="@drawable/surface_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine"
+            android:hint="@string/enter_notes_field"
+            android:textColorHint="@color/purple_hint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/set_location_btn"
+            android:background="@drawable/btn_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="@string/set_location_button" />
+
+        <Button
+            android:id="@+id/add_attendees_btn"
+            android:background="@drawable/btn_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="@string/add_attendees_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="38dp">
+
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/create_meeting_button"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/view_meeting_app_bar">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/close_creating_meeting_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/close_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_new_meeting_app_bar"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_meeting_bg"
+    tools:context=".AddAttendeesActivity">
+
+    <include
+        layout="@layout/add_new_attendees_app_bar"
+        android:id="@+id/add_new_attendee_app_bar_id">
+    </include>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="113dp"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+
+        <EditText
+            android:id="@+id/new_attendee_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/surface_text"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="@string/new_attendee_name"
+            android:textColorHint="@color/purple_hint"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/new_attendee_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/surface_text"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="@string/new_attendee_email"
+            android:textColorHint="@color/purple_hint"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/add_new_attendee_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/add_new_attendee_button"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
